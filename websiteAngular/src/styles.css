@@ -1,0 +1,568 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1920px;
+    height: 3696px;
+    margin: 0 auto;
+    background: linear-gradient(135.59deg, #250101, #1d1313);
+    overflow: hidden;
+  }
+  .flex-row-e {
+    position: relative;
+    width: 2167px;
+    height: 1052px;
+    margin: -481px 0 0 -111px;
+    z-index: 26;
+  }
+  .binary {
+    position: absolute;
+    width: 797.054px;
+    height: 797.013px;
+    top: 0;
+    left: 691.354px;
+    background: url(./assets/images/circleLines1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .binary-1 {
+    position: absolute;
+    width: 339.174px;
+    height: 386.729px;
+    top: 320.915px;
+    left: 163px;
+    background: url(./assets/images/circleLines1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    border-radius: 10px;
+  }
+  .binary-2 {
+    position: absolute;
+    width: 381px;
+    height: 370px;
+    top: 510px;
+    left: 1381px;
+    background: url(./assets/images/circleLines1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 6;
+  }
+  .ctem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 513px;
+    left: 197px;
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  .acerca-de {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 107px;
+    height: 21px;
+    top: 519px;
+    left: calc(50% - 263.5px);
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 22;
+  }
+  .acerca-de-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 107px;
+    height: 21px;
+    top: 519px;
+    left: calc(50% - 132.5px);
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 23;
+  }
+  .acerca-de-4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 107px;
+    height: 21px;
+    top: 519px;
+    left: calc(50% - 2.5px);
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 24;
+  }
+  .acerca-de-5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 107px;
+    height: 21px;
+    top: 519px;
+    left: calc(50% - -141.5px);
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 25;
+  }
+  .group {
+    position: absolute;
+    width: 1%;
+    height: 1.19%;
+    top: 49.52%;
+    left: 7.38%;
+    background: url(./assets/images/shapeLines.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 18;
+  }
+  .vector {
+    position: absolute;
+    width: 0.55%;
+    height: 1.99%;
+    top: 50.09%;
+    left: 7.31%;
+    background: url(./assets/images/circleLines1.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 17;
+  }
+  .group-6 {
+    position: relative;
+    width: 11.802px;
+    height: 12.882px;
+    margin: 6.723px 0 0 -0.35px;
+    background: url(./assets/images/circleLines1.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 19;
+  }
+  .vector-7 {
+    position: absolute;
+    width: 0.53%;
+    height: 1.02%;
+    top: 50.22%;
+    left: 7.94%;
+    background: url(./assets/images/shapeLines.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 11;
+  }
+  .vector-8 {
+    position: absolute;
+    width: 0.53%;
+    height: 1.02%;
+    top: 50.66%;
+    left: 7.94%;
+    background: url(./assets/images/shapeLines.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 13;
+  }
+  .vector-9 {
+    position: absolute;
+    width: 0.53%;
+    height: 1.02%;
+    top: 51.07%;
+    left: 7.94%;
+    background: url(./assets/images/shapeLines.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 15;
+  }
+  .binary-a {
+    position: absolute;
+    width: 403.676px;
+    height: 435.501px;
+    top: 549.677px;
+    left: 426.84px;
+    background: url(./assets/images/shapeLines.png)
+      no-repeat center;
+    background-size: cover;
+  }
+  .binary-b {
+    position: absolute;
+    width: 360px;
+    height: 294px;
+    top: 699px;
+    left: 1807px;
+    background: url(./assets/images/circleLines1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 5;
+  }
+  .educacion-ciencia-matematica {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 533px;
+    height: 161px;
+    top: 708px;
+    left: calc(50% - 279.5px);
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    text-align: center;
+    z-index: 2;
+  }
+  .binary-c {
+    position: absolute;
+    width: 285.475px;
+    height: 254.995px;
+    top: 785.484px;
+    left: 0;
+    background: url(./assets/images/circleLines1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 4;
+  }
+  .congreso-tecnologia-educacion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 391px;
+    height: 84px;
+    top: 874px;
+    left: calc(50% - 215.5px);
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 26px;
+    text-align: center;
+    z-index: 21;
+  }
+  .rectangle {
+    position: absolute;
+    width: 8.54%;
+    height: 5.04%;
+    top: 94.96%;
+    left: 44.85%;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 26;
+    border-radius: 24px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .se-ponente {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 151px;
+    height: 58.49%;
+    top: 28.3%;
+    left: calc(50% - 76.5px);
+    color: #9f1853;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 27;
+  }
+  .rectangle-d {
+    position: relative;
+    width: 1657px;
+    height: 441px;
+    margin: 96px 0 0 131px;
+    background: rgba(217, 217, 217, 0.26);
+    z-index: 28;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .image {
+    position: absolute;
+    width: 1201px;
+    height: 439px;
+    top: 0;
+    left: 453px;
+    background: url(./assets/images/circleLines1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 43;
+    border-radius: 45px;
+  }
+  .flex-column-f {
+    position: absolute;
+    top: 48px;
+    right: 1228px;
+    bottom: 100px;
+    left: 43px;
+    font-size: 0px;
+    z-index: 36;
+  }
+  .congreso-tecnologia-educacion-e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 379px;
+    height: 80px;
+    margin: 95px 0 0 7px;
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 26px;
+    text-align: left;
+    z-index: 34;
+  }
+  .rectangle-button {
+    position: relative;
+    width: 185px;
+    height: 53px;
+    margin: 65px 0 0 0;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 29;
+    border-radius: 24px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .span-se-ponente {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 151px;
+    height: 58.49%;
+    top: 28.3%;
+    left: calc(50% - 76.5px);
+    color: #9f1853;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 30;
+  }
+  .span-proposito {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 222px;
+    height: 62px;
+    top: 0;
+    left: calc(50% - 139px);
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 36;
+  }
+  .div-vector {
+    position: absolute;
+    width: 11.66%;
+    height: 15.36%;
+    top: 3.41%;
+    left: 0;
+    background: url(./assets/images/circleLines1.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 35;
+  }
+  .div-flex-row-dc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1657px;
+    height: 441px;
+    margin: 22px 0 0 131px;
+    z-index: 33;
+  }
+  .rectangle-f {
+    flex-shrink: 0;
+    position: relative;
+    width: 812px;
+    height: 441px;
+    font-size: 0px;
+    background: rgba(217, 217, 217, 0.26);
+    z-index: 32;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .span-congreso {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 222px;
+    height: 62px;
+    margin: 245px 0 0 257px;
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 38;
+  }
+  .span-congreso-tecnologia-educacion-matematica {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 642px;
+    height: 67px;
+    margin: 31px 0 0 74px;
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 26px;
+    text-align: left;
+    z-index: 37;
+  }
+  .rectangle-10 {
+    flex-shrink: 0;
+    position: relative;
+    width: 818px;
+    height: 441px;
+    background: rgba(217, 217, 217, 0.26);
+    z-index: 33;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1657px;
+    height: 441px;
+    margin: 22px 0 0 131px;
+    z-index: 42;
+  }
+  .rectangle-11 {
+    flex-shrink: 0;
+    position: relative;
+    width: 515px;
+    height: 441px;
+    background: rgba(217, 217, 217, 0.26);
+    z-index: 40;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .rectangle-12 {
+    flex-shrink: 0;
+    position: relative;
+    width: 536px;
+    height: 441px;
+    background: rgba(217, 217, 217, 0.26);
+    z-index: 41;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .rectangle-13 {
+    flex-shrink: 0;
+    position: relative;
+    width: 538px;
+    height: 441px;
+    background: rgba(217, 217, 217, 0.26);
+    z-index: 42;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .purpose {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 222px;
+    height: 62px;
+    margin: 240px 0 0 381px;
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 39;
+  }
+  .rectangle-14 {
+    position: relative;
+    width: 1657px;
+    height: 441px;
+    margin: 564px 0 0 131px;
+    background: rgba(217, 217, 217, 0.26);
+    z-index: 31;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  
